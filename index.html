@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>"presensipramuka"</title> 
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Presensi Pramuka - MTs Negeri 2 Sekadau</title>
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
-      overflow: hidden; /* Biar ga ada scrollbar */
-      background-color: #0d1117; /* Warna background gelap biar pas loading ga silau */
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #f8fafc;
     }
     iframe {
+      width: 100%;
+      height: 100%;
       border: none;
-      width: 100vw;
-      height: 100vh;
       display: block;
     }
   </style>
 </head>
 <body>
-
-  <iframe src="https://script.google.com/macros/s/AKfycby7-wDEVKq1KBzlBOXshPCEWDdd891s5BJYbz7e6QWU4ePN5iR8URyrcnOyRnRkrdvt/exec?page=presensi-pramuka"></iframe>
-
+  <iframe 
+    src="https://script.google.com/macros/s/AKfycby7-wDEVKq1KBzlBOXshPCEWDdd891s5BJYbz7e6QWU4ePN5iR8URyrcnOyRnRkrdvt/exec?page=presensi-pramuka"
+    allow="camera; microphone; geolocation"
+    allowfullscreen>
+  </iframe>
 </body>
 </html>
